@@ -1,8 +1,12 @@
 import React from "react";
-import style from "./Produtos.module.css";
+import styles from "./Produtos.module.css";
 
 const Produtos = () => {
-  return <h1>Produtos</h1>;
+  return (
+    <div className={styles.produtos}>
+      <h1>Produtos</h1>
+    </div>
+  );
 };
 
 export default Produtos;
